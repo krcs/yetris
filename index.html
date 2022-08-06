@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<script type="text/javascript" src="yui/yahoo.js"></script>
+        <script type="text/javascript" src="yui/event.js"></script>
+        <script type="text/javascript" src="yui/dom.js"></script>
+        <script type="text/javascript" src="yui/animation.js"></script>
+		<script type="text/javascript" src="core.js"></script>
+		<link rel="stylesheet" type="text/css" href="core.css" />
+		
+		<title>Yetris!</title>
+	</head>
+	<body>
+	<div id="back">
+	   <div id="inlogo"></div>
+	   <div id="intxt" align="center">
+	      <span id="t1">Press</span>&nbsp;<span id="t2">START</span>&nbsp;<span id="t3">to</span>&nbsp;<span id="t4">play.</span>
+	   </div>
+	   <div id="scorebox">Score: 0</div>
+	   <div id="levelbox">Level: 0</div>
+	  <div id="holder">
+	    <div id="container"></div>
+	  </div>
+	  <div id="lefttxt">
+	    <p><b>&raquo; Keyboard:</b></p>
+		<span>
+		  <img src="img/mup.gif" alt="up" vspace="2" hspace="23"/> - rotate
+		</span><br />
+	    <span>
+		  <img src="img/mleft.gif" alt="left" hspace="1"/>
+		  <img src="img/mdown.gif" alt="down" hspace="1" align="top" />
+		  <img src="img/mright.gif" alt="right" hspace="1" />
+		  - move
+		</span><br />
+		<span>
+		  <img src="img/mesc.gif" alt="esc" vspace="2"/> - quit
+		</span><br />
+		<span>
+		     <img src="img/mf11.gif" alt="fullscr" vspace="2"/> - full screen
+		</span>
+		<p><b>&raquo; Author:</b></p>
+		<span>&nbsp;&nbsp;Krzysztof Cieslak</span><br />
+		<span style="font-size:10px;color:#AAAAAA;">&nbsp;&nbsp;2007.01.03</span>
+		<p style="margin-bottom:1px;"><b>Score:</b></p>
+		<span style="font-size:0.7em;">&nbsp;&nbsp;One line: 2 points</span><br />
+		<span style="font-size:0.7em;">&nbsp;&nbsp;80 points: next level</span>
+	  </div>
+	  <div id="nexttxt" align="center">Next:</div>
+	  <div id="nextbox"><div id="nx"><div id="nxin"></div></div></div>
+	  <div id="powered">Powered By<a href="http://developer.yahoo.com/yui" target="_blank"><img id="logo" src="img/yahoo.gif" border="0" alt="yahoo" hspace="1"/></a></div>
+	  <div id="btn" align="center" class="btnoff">Start</div>
+	</div>
+	</body>
+</html>
